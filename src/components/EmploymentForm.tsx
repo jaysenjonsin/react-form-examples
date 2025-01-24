@@ -113,6 +113,7 @@ const EmploymentForm = ({ onAdd }: employmentFormProps) => {
             checked={isCurrentJob}
             onChange={() => setIsCurrentJob(!isCurrentJob)}
           />
+          current job?
         </label>
       </div>
 
