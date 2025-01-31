@@ -4,7 +4,7 @@ import React from 'react';
 const ActionForm = () => {
   //this function allows you to access the formData directly. just create the function and set it as the action attribute in the form.
 
-  //note: Must assign values to radio, checkbox, and option inputs. if you want to grab data from somewhere there can be multiple inputs (e.g. in this form, dietary restrictions), use formData.getAll and it will return an array of all the values.
+  //note: Must assign 'value' attribute to radio, checkbox, and option inputs. if you want to grab data from somewhere there can be multiple inputs (e.g. in this form, dietary restrictions), use formData.getAll and it will return an array of all the values.
 
   function signUp(formData) {
     //grabbing data one line at a time:
