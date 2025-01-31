@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 
+//This page utilizes controlled inputs
+
 interface EmploymentHistory {
   id: number;
   companyName: string;
